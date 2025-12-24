@@ -59,14 +59,14 @@ export const EcommerceTemplate = ({
                   to="/#collections" 
                   className="text-foreground/70 hover:text-foreground transition-colors"
                 >
-                  Collections
+                  Colecciones
                 </ScrollLink>
               )}
               <ScrollLink 
                 to="/#products" 
                 className="text-foreground/70 hover:text-foreground transition-colors"
               >
-                Products
+                Productos
               </ScrollLink>
               <Link 
                 to="/blog" 
@@ -120,19 +120,19 @@ export const EcommerceTemplate = ({
           <div>
             <BrandLogoLeft />
             <p className="mt-4 text-white/70">
-              Your trusted online store
+              Suplementos veganos de calidad premium para tu salud y bienestar
             </p>
           </div>
 
           {/* Links */}
           <div>
-            <h3 className="font-semibold mb-4 text-white">Links</h3>
+            <h3 className="font-semibold mb-4 text-white">Enlaces</h3>
             <div className="space-y-2">
               <Link 
                 to="/" 
                 className="block text-white/70 hover:text-white transition-colors"
               >
-                Home
+                Inicio
               </Link>
               <Link 
                 to="/blog" 
@@ -145,13 +145,13 @@ export const EcommerceTemplate = ({
 
           {/* Social Links */}
           <div>
-            <h3 className="font-semibold mb-4 text-white">Follow Us</h3>
+            <h3 className="font-semibold mb-4 text-white">Síguenos</h3>
             <SocialLinks />
           </div>
         </div>
 
         <div className="mt-8 pt-8 border-t border-white/20 text-center text-white/70">
-          <p>&copy; 2025 Your Store. All rights reserved.</p>
+          <p>&copy; 2025 Vegan Supplements. Todos los derechos reservados.</p>
         </div>
       </div>
     </div>
